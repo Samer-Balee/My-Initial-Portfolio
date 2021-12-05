@@ -5,31 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar">
+    <!--header-->
+    <header class="header">    
         <h1>Samer Balee</h1>
-        <ul>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
-        </ul>
-    <nav>
+        <div>
+            <ul id="header-links">
+                <li>
+                    <a href="#About Me">About Me</a>
+                 </li>
+                <li>
+                    <a href="#Work">Work</a>
+                </li>
+                
+                <li>
+                    <a href="#Contact Me">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </header>  
+    <!-- sectiom -->
+    <section class="subtitle">
+        <h2 >A Web Developer</h2>
+    </section>
+    <!-- main -->
     <main>
-        <header>
-            <h2>A Web Developer</h2>
-        </header>
-        <section>
-            <h2>About Me</h2>
-        </section>
-        <section>
-            <h2>Work</h2>
-        </section>
-        <section>
-            <h2>Contact Me</h2>
-        </section>
+       <div class="about-me">
+            <h2 id="title-about-me">About Me</h2>
+            <p id="text-about-me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nam aperiam assumenda quis eum ex ea. Corrupti iusto quaerat sit pariatur! At vel alias dolores officiis aperiam qui dicta nihil?</p>
+        </div>
+        <div class="Work">
+            <h2 class="aside-header">Work</h2>
+            <img src="./assets/images/web-development-from-scratch.png" alt="web-development-from-scratch">
+            <img src="./assets/images/Web-mobile-development.png" alt="Web-mobile-development">
+            <img src="./assets/images/web-development-2.png" alt="web-development-2">
+            <img src="./assets/images/responsive-web-design.png" alt="responsive-web-design">
+        </div>
+        <div class="info">
+            <h2 class="aside-header">Contact Me</h2>
+            <ul id="list-details">
+                <li>
+                    <a href="#0490898313">0490898313</a>
+                </li>
+                <li>
+                    <a href="#link to my portfolio">link to my portfolio</a>
+
+                </li>
+                <li>
+                    <a href="#gitHub">#GitHub</a>
+                 </li>
+                <li>
+                    <a href="#facebook">Facebook</a>
+                </li>
+
+            </ul>
+        </div>
     </main>
 </body>
 </html>
