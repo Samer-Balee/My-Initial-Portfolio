@@ -1,4 +1,4 @@
-/* Universal box sizing */
+/* Global box sizing */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -55,6 +55,7 @@ a {
   display: flex;
   justify-content: space-between;
   color: antiquewhite;
+  font-size: large;
 }
 
 #header-links a {
@@ -87,6 +88,7 @@ header img {
 .subtitle h2 {
   color: rgb(221, 236, 232);
   padding: 10px;
+  font-size: x-large;
 }
 
 /* main styling */
@@ -106,7 +108,7 @@ header img {
   font-size: large;
 }
 
-.about-me h2 {
+.about-me h3 {
   width: 20%;
   margin: 50px 5px 0px 0px;
 }
@@ -119,7 +121,7 @@ header img {
   padding: 20px 0 0 15px;
 }
 
-.work h2 {
+.work h3 {
   width: 20%;
   height: auto;
   margin: 50px 5px 0 0;
@@ -185,9 +187,10 @@ header img {
   width: 60%;
   align-items: center;
   padding: 0px 50px 0 5px;
+  font-size: medium;
 }
  
-.footer h2 {
+.footer h4 {
   width: 15%;
 }
 
@@ -235,6 +238,14 @@ header img {
     width: 100%;
     padding-right: 0;
   }
+
+  .footer-links {
+    font-size: medium;
+  }
+
+  .subtitle h2 {
+    font-size: large;
+  }
 } 
   
 
@@ -255,6 +266,7 @@ header img {
 
   .footer-links {
     width: 100%;
+    font-size: small;
   }
 
   #contact-me {
@@ -300,7 +312,7 @@ header img {
     border-top: 3px solid black;
   }
   
-  .about-me h2 {
+  .about-me h3 {
     width: 35%;
     margin: 20px 0px 0px 5px;
   }
@@ -345,5 +357,6 @@ header img {
 
   .footer-links {
     width: 100%;
+    font-size: smaller;
   }
 }

@@ -21,3 +21,10 @@ We need to build a portfolio from scratch by:
 Please use the following link to view the web page of my portfolio : 
 
 Github link : 
+
+## Usage
+
+1- Building project files ![alt text](assets/images/portfolio-screenshot-1.png)
+
+2- Check responsive design ![alt text](assets/images/inspect-screenshot.png)
+
