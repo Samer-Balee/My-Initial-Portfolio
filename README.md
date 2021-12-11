@@ -18,7 +18,7 @@ We need to build a portfolio from scratch by:
 
 ## Instalation
 
-This site was built using [GitHub Pages](https://pages.github.com/).
+Please use the following link to view the web page :
  
 
 ## Usage
@@ -26,6 +26,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 1- Building project files ![portfolio-screenshot-1](assets/images/portfolio-screenshot-1.png)
 
 
-2- Check responsive design ![images/inspect-screenshot](assgiets/images/inspect-screenshot.png)
+2- Check responsive design ![inspect-screenshot](assets/images/inspect-screenshot.png)
+
 
 
