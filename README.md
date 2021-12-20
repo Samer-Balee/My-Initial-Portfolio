@@ -18,7 +18,7 @@ We need to build a portfolio from scratch by:
 
 ## Instalation
 
-This site was built using [GitHub Pages](https://samer-balee.github.io/My-Initial-Portfolio/).
+This site was built using [GitHub Pages](https://samer-balee.github.io/My-Initial-Portfolio/)
 
 Please use the following link to view the web page (https://samer-balee.github.io/My-Initial-Portfolio/)
  
