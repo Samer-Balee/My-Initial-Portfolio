@@ -130,8 +130,6 @@ h3 {
   border-left: 3px solid black;
 }
 
-
-
 #main-image img {
   width: 60vw;
   height: auto;
@@ -210,174 +208,168 @@ h4 {
 }
 
 /* screen readers styling */
-/* @media screen and (max-width:768px) {
 
-  body {
-    font-size: large;
-  }
-
-  .footer {
-    height: 200px;
+@media screen and (max-width:1024px) {
+  #title-img {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
   }
 
-  #contact-me {
-    width: 100%;
+  #js-img {
     display: flex;
-    align-items: center;
-    }
+    flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+  h3 {
+    padding-left: 4vh;
+    font-size: 1.5em;
+  }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+  #title-img {
+    font-size: 1rem;
+  }
+
+  #js-img {
+    font-size: 1rem ;
+  }
+
+  #about-img {
+    font-size: 1rem ;
+  }
+
+  h3 {
+    padding-left: 1vh;
+  }
 
   #contact-me {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding-right: 0;
+    font-size: 1.5rem ;
   }
 
-  .footer-links {
-    font-size: medium;
+  .footer-links a {
+    font-size: 0.8rem;
   }
-
-  .subtitle h2 {
-    font-size: large;
-  }
-}  */
+  
+}  
   
 
-/* @media screen and (max-width: 520px) {
+@media screen and (min-width: 377px) and (max-width: 520px) {
 
-  body {
-    font-size: medium;
+  #work img {
+    width: 80%;
+    height: 80%;
   }
 
-  .navbar {
-    flex-wrap: wrap;
-     height: 200px;
+  h1 {
+    font-size: 2.5em;
   }
 
-  #header-links {
-    padding-bottom: 50px;
-  }
-
-  .footer-links {
-    width: 100%;
-    font-size: small;
+  #header-links a{
+    font-size: 1.5vh;
+    padding: 5px;
   }
 
   #contact-me {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding-right: 0;
+  
+    font-size: 1.5rem ;
   }
+
+  .footer {
+    flex-direction: column;
+  } 
+
+  .footer-links a {
+    font-size: 0.8rem;
+  }
+  
 }
 
 
 @media screen and (max-width: 376px) {
 
-  body {
-    font-size: smaller;
+  h1 {
+    font-size: 1.3em;
+  }
+  h2{
+   font-size: 1.1em;
   }
 
-  .navbar {
-    flex-wrap: wrap;
-    height: 200px;
+  h3 {
+   width: 50%;
+   font-size:  2vh;
+   padding-bottom: 10px;
   }
-
-  .navbar ul {
-    margin-left: 100px;
-  }
-
-  .main-image img{
-    width: 200px;
-    height: 200px;
-  }
-
-  .about-me {
-    display: flex;
+  #about-me {
     flex-direction: column;
     align-items: center;
   }
-  
+
+  #header-links a{
+    font-size: 1vh;
+    padding: 0;
+  }
+
   #text-about-me {
-    width: 100%;
-    padding-top: 30px;
-    padding-left: 0px;
-    border-left: none;
-    border-top: 3px solid black;
-  }
-  
-  .about-me h3 {
-    width: 35%;
-    margin: 20px 0px 0px 5px;
+    border-top: 2px solid black;
+    border-left: 0;
   }
 
-  .work {
-    display: flex;
-    flex-direction: column;
+  #work {
     align-items: center;
+    flex-direction: column;
+    
+   
   }
 
-  .images {
-    width: 90%;
-    padding-top: 30px;
-    padding-left: 0px;
-    border-left: none;
-    border-top: 3px solid black;
-  }
-
-  .main-image img {
-   width: 80%;
-  }
-
-  .other-images img {
+  #work img {
     width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    height: 80%;
   }
 
+  #images {
+    border-left: 0;
+    border-top: 2px solid black;
+    padding-top: 20px;
+  }
+
+  #title-img {
+    font-size:0.8rem;
+  }
+
+  #js-img {
+    font-size: 0.8rem ;
+    margin-bottom: 20px;
+  }
+
+  #about-img {
+    font-size: 0.8rem ;
+  }
+
+  
   .footer {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+  } 
+
+  .footer-links a {
+    font-size: 0.7rem;
   }
 
   #contact-me {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding-right: 0;
+  
+  font-size: 1.1rem ;
   }
 
-  .footer-links {
-    width: 100%;
-    font-size: smaller;
-  }
-} */
-/* width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-  } */
+}
+ 
+ 
 
-  /* .footer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-  #contact-me {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding-right: 0;
-  }
-
-  .footer-links {
-    width: 100%;
-    font-size: smaller;
-  }
- */
+ 
