@@ -8,7 +8,7 @@
   /* body font and color styling */
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: rgba(201, 237, 248, 0.933);
+  background-color: rgba(201, 223, 222, 0.933);
   width:100%;
 }
 
@@ -134,7 +134,11 @@ h3 {
   width: 60vw;
   height: auto;
   border-radius: 5%;
-  
+  box-shadow:  #6d5470 5px 5px 10px;
+}
+
+#main-image img:hover {
+ width: 65vw;
 }
 
 #title-img {
@@ -148,6 +152,11 @@ width: 30vw;
 height: auto;
 border-radius: 5%;
 padding: 2px;
+box-shadow:  #6d5470 5px 5px 10px;
+}
+
+.o-images img:hover {
+  width: 35vw;
 }
 
 .o-images p {
