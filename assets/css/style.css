@@ -102,7 +102,8 @@ h2 {
   display: flex;
   padding-left: 25px;
   border-left: 3px solid black;
-  font-size: large;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 
@@ -271,7 +272,7 @@ h4 {
 }  
   
 
-@media screen and (min-width: 377px) and (max-width: 520px) {
+@media screen  and (min-width: 377px) and (max-width: 620px) {
 
   #work img {
     width: 80%;
@@ -279,12 +280,25 @@ h4 {
   }
 
   h1 {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 
   #header-links a{
-    font-size: 1.5vh;
+    font-size: 0.9rem;
     padding: 5px;
+    padding-left: 0;
+  }
+
+  #header-links {
+    padding-left: 2px;
+  }
+
+  .o-images {
+    margin-top: 10px;
+  }
+
+  .o-images img {
+    width: 80%;
   }
 
   #contact-me {
@@ -296,8 +310,16 @@ h4 {
     flex-direction: column;
   } 
 
+  .footer-links {
+    padding-left: 0;
+  }
+
   .footer-links a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    padding-left: 2px;
   }
   
 }
@@ -306,7 +328,7 @@ h4 {
 @media screen and (max-width: 376px) {
 
   h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   h2{
    font-size: 1.1em;
@@ -314,7 +336,7 @@ h4 {
 
   h3 {
    width: 50%;
-   font-size:  2vh;
+   font-size:  1.3rem;
    padding-bottom: 10px;
   }
   #about-me {
@@ -323,13 +345,15 @@ h4 {
   }
 
   #header-links a{
-    font-size: 1vh;
+    font-size:0.7rem;
     padding: 0;
   }
 
   #text-about-me {
     border-top: 2px solid black;
     border-left: 0;
+    font-size: 0.8rem;
+    padding-top: 10px;
   }
 
   #work {
@@ -342,6 +366,14 @@ h4 {
   #work img {
     width: 80%;
     height: 80%;
+  }
+
+  .o-images {
+    margin-top: 10px;
+  }
+
+  .o-images p {
+    padding-left: 10px;
   }
 
   #images {
