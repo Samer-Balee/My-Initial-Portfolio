@@ -58,7 +58,7 @@ h1  {
   display: flex;
   justify-content: space-between;
   color: antiquewhite;
-  margin: 5px 0 5px 30px;
+  margin: 5px 0 5px 0;
   padding: 2vw;
   font-size: 2vh;
 }
@@ -291,6 +291,7 @@ h4 {
 
   #header-links {
     padding-left: 2px;
+    margin: 5px 0 5px 0;
   }
 
   .o-images {
@@ -342,6 +343,10 @@ h4 {
   #about-me {
     flex-direction: column;
     align-items: center;
+  }
+
+  #header-links {
+    padding: 0;
   }
 
   #header-links a{
@@ -399,6 +404,10 @@ h4 {
   .footer {
     flex-direction: column;
   } 
+
+  .footer-links {
+    padding-left: 10px;
+  }
 
   .footer-links a {
     font-size: 0.7rem;
