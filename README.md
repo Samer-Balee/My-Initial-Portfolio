@@ -1,4 +1,4 @@
-# My-Initial-Portfolio
+# My-Portfolio
 
 ## About the project
 
@@ -18,17 +18,16 @@ We need to build a portfolio from scratch by:
 
 ## Instalation
 
-This site was built using [GitHub Pages](https://samer-balee.github.io/My-Initial-Portfolio/)
+Please use this link to view my Portfolio [Portfolio](https://samer-balee.github.io/My-Portfolio/)
 
-Please use the following link to view the web page (https://samer-balee.github.io/My-Initial-Portfolio/)
+Please use the following link to view the web page (https://github.com/Samer-Balee/My-Portfolio)
  
 
 ## Usage
 
-1- Building project files ![alt text](assets/images/portfolio-screenshot-1.PNG)
-
-
-2- Check responsive design ![alt text](assets/images/inspect-screenshot.PNG)
+- Screenshot for my Portfolio page 
+  
+   ![alt text](assets/images/screenshot-portfolio.png)
 
 
 
